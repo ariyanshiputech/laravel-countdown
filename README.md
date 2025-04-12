@@ -117,7 +117,7 @@ Please see [CHANGELOG](changelog.MD) for more information on what has changed re
 
 ## Credits
 
-- [Jean-Philippe Murray](https://github.com/ariyanshiputech)
+- [Ariyan SHipu](https://github.com/ariyanshiputech)
 - [All Contributors](../../contributors)
 
 ## License
