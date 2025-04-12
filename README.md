@@ -29,10 +29,10 @@ Edit file: `bootstrap/providers.php`
 
 
 ```
-```php
-// ...
+
 Edit file: `bootstrap/app.php`
 
+```php
     ->withMiddleware(function (Middleware $middleware) {
             $middleware->alias([
                 // ...
@@ -117,7 +117,7 @@ Please see [CHANGELOG](changelog.MD) for more information on what has changed re
 
 ## Credits
 
-- [Ariyan SHipu](https://github.com/ariyanshiputech)
+- [Ariyan Shipu](https://github.com/ariyanshiputech)
 - [All Contributors](../../contributors)
 
 ## License
