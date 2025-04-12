@@ -12,7 +12,7 @@ I needed to get the diffrence of time, and while the [very good Carbon](https://
 You can install this package via composer:
 
 ```bash
-$ composer require ariyanshipu/laravel-countdown
+ composer require ariyanshipu/laravel-countdown
 ```
 
 ## Usage with Laravel Latest Version
@@ -28,6 +28,8 @@ Edit file: `bootstrap/providers.php`
     ];
 
 
+```
+```php
 // ...
 Edit file: `bootstrap/app.php`
 
