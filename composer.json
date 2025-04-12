@@ -1,0 +1,59 @@
+{
+    "name": "ariyanshipu/laravel-countdown",
+    "description": "Laravel Countdown is a simple and powerful Laravel package that allows you to create and manage countdown timers directly within your application. Whether you're launching a product, running a flash sale, or counting down to an event, this package makes it easy to handle time-sensitive logic in your Laravel projects",
+    "keywords": [
+        "ariyanshipu",
+        "laravel-countdown"
+    ],
+    "homepage": "https://github.com/ariyanshipu/laravel-countdown",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ariyan Shipu",
+            "email": "noc@ariyanshipu.me",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-bcmath": ">=3.8.4",
+        "nesbot/carbon": ">=3.8.4",
+        "illuminate/support": ">=8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": ">=6.0",
+        "phpunit/phpunit": ">=5.0",
+        "nesbot/carbon": ">=3.8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ariyanshipu\\LaravelCountdown\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ariyanshipu\\LaravelCountdown\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ariyanshipu\\LaravelCountdown\\CountdownServiceProvider"
+            ],
+            "aliases": {
+                "LaravelCountdown": "Ariyanshipu\\LaravelCountdown\\Facades\\CountdownFacade"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
